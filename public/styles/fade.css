@@ -1,0 +1,15 @@
+#zlick-widget {
+  position: relative;
+  --fade-bg-color: unset;
+}
+
+#zlick-widget::before {
+  position: absolute;
+height: 100px;
+width: 100%;
+top: -115px;
+content: " ";
+z-index: 49;
+background: rgb(var(--fade-bg-color));
+background: linear-gradient(0deg, rgba(var(--fade-bg-color),1) 0%, rgba(var(--fade-bg-color),0.6390756986388305) 50%, rgba(var(--fade-bg-color),0) 100%);
+}

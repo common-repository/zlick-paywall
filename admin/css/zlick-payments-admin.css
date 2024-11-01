@@ -1,0 +1,48 @@
+/*------------------------------Zlick Payments Admin CSS-------------------------------- */
+.zp-selection-container {
+	padding: 10px;
+	border-style: solid;
+	border-width: 1px;
+	width: 95%;
+	border-radius: 10px;
+	border-color: #357AF7;
+	margin: 0px;
+}
+
+.zp-category-box img {
+	height: auto;
+	width: 120px;
+}
+
+.zp-category-box-sm {
+	width: fit-content !important;
+}
+
+.zp-category-margin {
+	margin: 1em 0;
+}
+.zp-category-box {
+	padding: 15px;
+	border-style: solid;
+	border-width: 1px;
+	width: 95%;
+	border-radius: 10px;
+	border-color: #357AF7;
+	background: #357AF7;
+}
+
+.zp-category-box p {
+	font-size: 14px;
+	font-family: 'circular';
+	color: white;
+}
+
+.zp-category-selector-label {
+	color: #4f4f4f;
+	opacity: 90%;
+	font-size: 13px;
+}
+.zp-free-category {
+	color: #357AF7;
+	font-style: italic;
+}
